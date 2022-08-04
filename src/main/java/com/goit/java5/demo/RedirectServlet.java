@@ -1,4 +1,4 @@
-package com.goit.java5;
+package com.goit.java5.demo;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

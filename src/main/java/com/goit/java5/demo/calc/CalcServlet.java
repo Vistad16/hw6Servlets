@@ -1,4 +1,4 @@
-package com.goit.java5.calc;
+package com.goit.java5.demo.calc;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

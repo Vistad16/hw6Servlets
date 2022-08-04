@@ -1,4 +1,4 @@
-package com.goit.java5.auth;
+package com.goit.java5.demo.auth;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
@@ -8,11 +8,20 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebFilter(value = "/api/*")
-public class ExtendHeaderFilter extends HttpFilter {
+//@WebFilter(value = "/api/*")
+public class AuthFilter extends HttpFilter {
 	@Override
 	protected void doFilter(HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws IOException, ServletException {
-		res.setHeader("HelloHeader", "HelloHeaderValue");
-		chain.doFilter(req, res);
+		String authHeaderValue = req.getHeader("Authorization");
+		if ("111".equals(authHeaderValue)){
+			chain.doFilter(req, res);
+		} else {
+			res.setStatus(401);
+
+			res.setContentType("application/json");
+			res.getWriter().write("{\"Error\": \"Not authorized\"}");
+			res.getWriter().close();
+		}
+
 	}
 }

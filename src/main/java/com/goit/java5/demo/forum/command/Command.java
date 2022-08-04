@@ -1,4 +1,4 @@
-package com.goit.java5.forum.command;
+package com.goit.java5.demo.forum.command;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

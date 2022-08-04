@@ -1,4 +1,4 @@
-package com.goit.java5.forum;
+package com.goit.java5.demo.forum;
 
 import java.util.List;
 

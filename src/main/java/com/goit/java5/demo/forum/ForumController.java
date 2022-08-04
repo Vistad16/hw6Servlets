@@ -1,4 +1,4 @@
-package com.goit.java5.forum;
+package com.goit.java5.demo.forum;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import com.goit.java5.forum.command.CommandService;
+import com.goit.java5.demo.forum.command.CommandService;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.templateresolver.FileTemplateResolver;
 

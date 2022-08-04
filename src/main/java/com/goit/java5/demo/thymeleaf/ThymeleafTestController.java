@@ -1,4 +1,4 @@
-package com.goit.java5.thymeleaf;
+package com.goit.java5.demo.thymeleaf;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

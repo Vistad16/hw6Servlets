@@ -1,4 +1,4 @@
-package com.goit.java5.calc;
+package com.goit.java5.demo.calc;
 
 public class CalcService {
 	public CalcResponse calculate(CalcRequest request) {

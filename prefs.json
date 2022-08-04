@@ -1,0 +1,5 @@
+{
+  "dbUrl": "jdbdc:mysql://127.0.0.1:3306/mydb",
+  "dbUser": "root",
+  "dbPass": "pass"
+}
