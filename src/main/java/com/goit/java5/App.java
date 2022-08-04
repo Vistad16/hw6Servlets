@@ -10,14 +10,19 @@ import com.goit.java5.storage.DatabaseInitService;
 import com.goit.java5.storage.Storage;
 
 public class App {
-	public static void main(String[] args) throws SQLException {
+	public static void main(String[] args) {
 		Storage storage = Storage.getInstance();
-//
-//		new DatabaseInitService().initDb(
-//				new Prefs().getString(Prefs.DB_JDBC_CONNECTION_URL),
-//				new Prefs().getString(Prefs.DB_USER),
-//				new Prefs().getString(Prefs.DB_PASS)
-//				);
+
+		//test
+		Connection connection = storage.getConnection();
+
+//		storage.executeUpdate("CREATE TABLE test_table (name VARCHAR(100))");
+
+		new DatabaseInitService().initDb(
+				new Prefs().getString(Prefs.DB_JDBC_CONNECTION_URL),
+				new Prefs().getString(Prefs.DB_USER),
+				new Prefs().getString(Prefs.DB_PASS)
+				);
 
 }
 }

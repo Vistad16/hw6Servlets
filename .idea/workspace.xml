@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prefs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/prefs/Prefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/storage/DatabaseInitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/storage/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__home_work4.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/HelloWorldServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/HelloWorldServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/RedirectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/RedirectServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/auth/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/auth/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/auth/ExtendHeaderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/auth/ExtendHeaderFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/calc/CalcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/calc/CalcRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/calc/CalcResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/calc/CalcResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/calc/CalcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/calc/CalcService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/calc/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/calc/CalcServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/ForumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/ForumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/InMemoryMessageStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/InMemoryMessageStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/MessageStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/MessageStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/command/AddMessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/command/AddMessageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/command/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/command/CommandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/command/DeleteMessageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/command/DeleteMessageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/forum/command/GetMessagesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/forum/command/GetMessagesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/thymeleaf/ThymeleafTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/demo/thymeleaf/ThymeleafTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prefs.json" beforeDir="false" afterPath="$PROJECT_DIR$/prefs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,16 +194,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/goit/Tomcat/bin/catalina.bat&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/goit/hw6Servlets/lib/mysql-connector-java-8.0.30.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.goit.java5.thymeleaf" />
