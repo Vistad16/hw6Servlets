@@ -14,15 +14,11 @@ public class App {
 		Storage storage = Storage.getInstance();
 
 		//test
-		Connection connection = storage.getConnection();
+		//Connection connection = storage.getConnection();
 
 //		storage.executeUpdate("CREATE TABLE test_table (name VARCHAR(100))");
 
-		new DatabaseInitService().initDb(
-				new Prefs().getString(Prefs.DB_JDBC_CONNECTION_URL),
-				new Prefs().getString(Prefs.DB_USER),
-				new Prefs().getString(Prefs.DB_PASS)
-				);
+		new DatabaseInitService().initDb(storage);
 
 }
 }

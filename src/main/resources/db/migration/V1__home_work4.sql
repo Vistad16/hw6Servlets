@@ -1,5 +1,5 @@
 CREATE TABLE developer (
-  id IDENTITY PRIMARY KEY,
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
   company_id BIGINT NOT NULL,
   name VARCHAR(100) NOT NULL,
   age INT NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE developer (
 );
 
 CREATE TABLE skills (
-  id IDENTITY PRIMARY KEY,
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
   programming_language VARCHAR(50) NOT NULL,
   skill_level VARCHAR(50) NOT NULL
 );
@@ -22,11 +22,11 @@ FOREIGN KEY (skill_id) REFERENCES skills(id)
 );
 
 ALTER TABLE developer
-ADD CONSTRAINT  IF NOT EXISTS sex_enum_values
+ADD CONSTRAINT sex_enum_values
 CHECK (sex IN ('male', 'female', 'unknown'));
 
 CREATE TABLE projects (
-  id IDENTITY PRIMARY KEY,
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
   projects_name VARCHAR(100) NOT NULL,
   cost BIGINT NOT NULL,
   creation_Date DATE,
@@ -42,7 +42,7 @@ FOREIGN KEY (project_id) REFERENCES projects(id)
 );
 
 CREATE TABLE customers (
-  id IDENTITY PRIMARY KEY,
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(100) NOT NULL,
   Country VARCHAR(50)
 );
@@ -56,13 +56,13 @@ FOREIGN KEY (projects_id) REFERENCES projects(id)
 );
 
 CREATE TABLE companies (
-  id IDENTITY PRIMARY KEY,
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
   company_name VARCHAR(100) NOT NULL,
   specialization VARCHAR(150)
 );
 
 ALTER TABLE developer
-ADD CONSTRAINT  IF NOT EXISTS developer_companies_id_fk
+ADD CONSTRAINT developer_companies_id_fk
 FOREIGN KEY (company_id) REFERENCES companies(id);
 
 CREATE TABLE company_customer (
@@ -73,7 +73,6 @@ FOREIGN KEY (customer_id) REFERENCES customers(id),
 FOREIGN KEY (company_id) REFERENCES companies(id)
 );
 
---added
 INSERT INTO companies (company_name, specialization) VALUES
 ('SW', 'Building droids'),
 ('LOTR', 'Peace in Middle earth'),

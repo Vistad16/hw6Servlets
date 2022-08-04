@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="">
+    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="MySQL connecting done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prefs.json" beforeDir="false" afterPath="$PROJECT_DIR$/prefs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/storage/DatabaseInitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/storage/DatabaseInitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__home_work4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__home_work4.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +200,7 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/goit/hw6Servlets/lib/mysql-connector-java-8.0.30.jar",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -324,18 +326,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.goit.java5.App" />
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.com.goit.java5.App" />
       <item itemvalue="Gradle.hw6Servlets [build]" />
       <item itemvalue="Gradle.hw6Servlets [clean]" />
       <item itemvalue="Gradle.hw6Servlets [war]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.goit.java5.App" />
         <item itemvalue="Gradle.hw6Servlets [war]" />
         <item itemvalue="Gradle.hw6Servlets [clean]" />
         <item itemvalue="Gradle.hw6Servlets [build]" />
+        <item itemvalue="Application.com.goit.java5.App" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -349,6 +351,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657862733834</updated>
     </task>
+    <task id="LOCAL-00001" summary="MySQL connecting done">
+      <created>1659616876532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659616876532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -364,6 +374,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MySQL connecting done" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL connecting done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
