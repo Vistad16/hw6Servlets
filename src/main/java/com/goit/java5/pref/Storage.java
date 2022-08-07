@@ -1,11 +1,9 @@
-package com.goit.java5.storage;
+package com.goit.java5.pref;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-
-import com.goit.java5.prefs.Prefs;
 
 public class Storage {
 
@@ -15,9 +13,9 @@ public class Storage {
 
 	private Storage() {
 		try {
-			String connectionUrl = new Prefs().getString(Prefs.DB_JDBC_CONNECTION_URL);
-			String connectionUser = new Prefs().getString(Prefs.DB_USER);
-			String connectionPass = new Prefs().getString(Prefs.DB_PASS);
+			String connectionUrl = Prefs.DB_JDBC_CONNECTION_URL;
+			String connectionUser = Prefs.DB_USER;
+			String connectionPass = Prefs.DB_PASS;
 			connection = DriverManager.getConnection(connectionUrl, connectionUser, connectionPass);
 		} catch (Exception ex) {
 			ex.printStackTrace();
