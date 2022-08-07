@@ -26,4 +26,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.flywaydb/flyway-core
     implementation 'org.flywaydb:flyway-core:8.0.0'
 
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation 'org.slf4j:slf4j-api:2.0.0-alpha7'
 }
