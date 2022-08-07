@@ -8,9 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-import com.goit.java5.data.DatabaseInitService;
-import com.goit.java5.data.Prefs;
-import com.goit.java5.data.Storage;
+import com.goit.java5.pref.DatabaseInitService;
+import com.goit.java5.pref.Prefs;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.FileTemplateResolver;
@@ -36,7 +35,7 @@ public class TableController extends HttpServlet {
 	}
 
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.setContentType("text/html");
 		Context simpleContext = new Context();
 		engine.process("test", simpleContext, resp.getWriter());
