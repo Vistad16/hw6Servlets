@@ -1,4 +1,4 @@
-package com.goit.java5.pref;
+package com.goit.java5.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,15 +11,18 @@ public class Storage {
 
 	private Connection connection;
 
+	Prefs prefs = new Prefs();
+
 	private Storage() {
 		try {
-			String connectionUrl = Prefs.DB_JDBC_CONNECTION_URL;
-			String connectionUser = Prefs.DB_USER;
-			String connectionPass = Prefs.DB_PASS;
-			connection = DriverManager.getConnection(connectionUrl, connectionUser, connectionPass);
+//			DriverManager.registerDriver(new com.mysql.jdbc.Driver()); //deprecated
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+
+			connection = DriverManager.getConnection(prefs.getDB_JDBC_CONNECTION_URL(), prefs.getDB_USER(), prefs.getDB_USER());
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
+		new DatabaseInitService().initDb();
 	}
 
 	public static Storage getInstance() {
@@ -27,7 +30,7 @@ public class Storage {
 	}
 
 	public int executeUpdate(String sql) {
-		try(Statement st = connection.createStatement()) {
+		try (Statement st = connection.createStatement()) {
 			return st.executeUpdate(sql);
 		} catch (Exception ex) {
 			ex.printStackTrace();

@@ -1,5 +1,0 @@
-{
-  "dbUrl": "jdbc:mysql://localhost/mydb",
-  "dbUser": "root",
-  "dbPass": "pass"
-}

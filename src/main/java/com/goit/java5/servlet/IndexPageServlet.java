@@ -1,4 +1,4 @@
-package com.goit.java5.controller;
+package com.goit.java5.servlet;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -6,22 +6,28 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import com.goit.java5.pref.DatabaseInitService;
-import com.goit.java5.pref.Prefs;
+import com.goit.java5.connection.Storage;
+import com.goit.java5.servlet.command.CommandService;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.FileTemplateResolver;
 
-//engine create
-@WebServlet ("/")//люба урла приведе на мейн сторінку
-public class TableController extends HttpServlet {
-	public TemplateEngine engine;
-	public CommandService commandService;
+@WebServlet ("/")
+public class IndexPageServlet extends HttpServlet {
+	private static TemplateEngine engine;
+
+	private static CommandService commandService;
+
+	public static TemplateEngine getEngine() {
+		return engine;
+	}
+
+	public static CommandService getCommandService() {
+		return commandService;
+	}
 
 	@Override
 	public void init() {
-		new DatabaseInitService().initDb(Prefs.DB_JDBC_CONNECTION_URL, Prefs.DB_USER, Prefs.DB_PASS);
-
 		engine = new TemplateEngine();
 
 		FileTemplateResolver resolver = new FileTemplateResolver();
@@ -32,14 +38,18 @@ public class TableController extends HttpServlet {
 		resolver.setCacheable(false);
 		engine.addTemplateResolver(resolver);
 
-		commandService = new CommandService(Prefs.DB_JDBC_CONNECTION_URL, Prefs.DB_USER, Prefs.DB_PASS);
+		commandService = new CommandService();
+		Storage.getInstance();
 	}
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.setContentType("text/html");
-		Context simpleContext = new Context();
-		engine.process("main", simpleContext, resp.getWriter());
+
+		Context context = new Context();
+
+		engine.process("/index", context, resp.getWriter());
+
 		resp.getWriter().close();
 	}
 }
