@@ -12,7 +12,7 @@ import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.FileTemplateResolver;
 
-@WebServlet ("/")
+@WebServlet ("/*")
 public class IndexPageServlet extends HttpServlet {
 	private static TemplateEngine engine;
 

@@ -18,6 +18,6 @@ public class UpdateCommand implements Command {
 
 		new RequestsForCompanies().updateCompanies(Integer.parseInt(id), new Companies(updateCompany_name, updateSpecialization));
 
-		resp.sendRedirect("/companies");
+		resp.sendRedirect("/hw6Servlets/companies");
 	}
 }

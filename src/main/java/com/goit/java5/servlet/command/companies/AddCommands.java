@@ -16,6 +16,6 @@ public class AddCommands implements Command {
 
 		new RequestsForCompanies().createCompanies(company_name, specialization);
 
-		resp.sendRedirect("/companies");
+		resp.sendRedirect("/hw6Servlets/companies");
 	}
 }

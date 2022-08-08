@@ -15,6 +15,6 @@ public class DeleteCommands implements Command {
 
 		new RequestsForCompanies().deleteCompaniesById(Integer.parseInt(id));
 
-		resp.sendRedirect("/companies");
+		resp.sendRedirect("/hw6Servlets/companies");
 	}
 }

@@ -19,11 +19,10 @@ public class CommandService {
 	public CommandService() {
 		commands = new HashMap<>();
 		//todo add commands
-		commands.put("GET /companies", new GetCommands());
-		commands.put("POST /companies/delete", new DeleteCommands());
-		commands.put("POST /companies", new AddCommands());
-		commands.put("POST /companies/update", new UpdateCommand());
-
+		commands.put("GET /hw6Servlets/companies", new GetCommands());
+		commands.put("POST /hw6Servlets/companies/delete", new DeleteCommands());
+		commands.put("POST /hw6Servlets/companies", new AddCommands());
+		commands.put("POST /hw6Servlets/companies/update", new UpdateCommand());
 
 	}
 
