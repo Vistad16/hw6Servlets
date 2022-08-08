@@ -1,4 +1,5 @@
 # FAQ
 use MySQL
-Pref in "com.goit.java5.connection.Prefs.java"
+# Pref
+In "com.goit.java5.connection.Prefs.java"
 Path to templates "com.goit.java5.servlet.IndexPageServlet"
