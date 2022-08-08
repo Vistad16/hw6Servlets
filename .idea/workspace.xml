@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="add index page and servlet">
+    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="Companies done 1/6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Projects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Skills.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/IndexPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/IndexPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/companies/AddCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/companies/AddCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/companies/DeleteCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/companies/DeleteCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/companies/UpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/companies/UpdateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/companies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/companies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +57,7 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -89,6 +86,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.goit.java5.data.entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Temp\hw6Servlets\src\main\resources\db\migration" />
       <recent name="D:\Temp\hw6Servlets\templates\company" />
@@ -350,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659976814696</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Companies done 1/6">
+      <created>1659980781178</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659980781178</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -382,7 +389,8 @@
     <MESSAGE value="TableController update" />
     <MESSAGE value="update webservlet" />
     <MESSAGE value="add index page and servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add index page and servlet" />
+    <MESSAGE value="Companies done 1/6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Companies done 1/6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
