@@ -13,7 +13,7 @@ import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.FileTemplateResolver;
 
 //engine create
-@WebServlet ("/*")//люба урла приведе на мейн сторінку
+@WebServlet ("/")//люба урла приведе на мейн сторінку
 public class TableController extends HttpServlet {
 	public TemplateEngine engine;
 	public CommandService commandService;
