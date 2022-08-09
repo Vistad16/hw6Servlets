@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="add projects part done 3/5">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/DeveloperServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/DeveloperServlet.java" afterDir="false" />
+    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="format">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/queries/RequestsForSkills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/SkillsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/skills/AddSkillsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/skills/DeleteSkillsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/skills/GetSkillsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/skills/UpdateSkillsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,8 +236,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.hw6Servlets [war]" />
-        <item itemvalue="Gradle.hw6Servlets [build]" />
         <item itemvalue="Gradle.hw6Servlets [clean]" />
+        <item itemvalue="Gradle.hw6Servlets [build]" />
         <item itemvalue="Application.com.goit.java5.App" />
         <item itemvalue="Application.App" />
       </list>
@@ -391,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660050004444</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="format">
+      <created>1660050052246</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660050052247</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -428,7 +443,8 @@
     <MESSAGE value="add developer part 2/5 done" />
     <MESSAGE value="formatting" />
     <MESSAGE value="add projects part done 3/5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add projects part done 3/5" />
+    <MESSAGE value="format" />
+    <option name="LAST_COMMIT_MESSAGE" value="format" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
