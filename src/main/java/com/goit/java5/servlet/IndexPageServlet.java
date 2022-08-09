@@ -31,7 +31,7 @@ public class IndexPageServlet extends HttpServlet {
 		engine = new TemplateEngine();
 
 		FileTemplateResolver resolver = new FileTemplateResolver();
-		resolver.setPrefix("D:/Temp/hw6Servlets/templates/");
+		resolver.setPrefix(getServletContext().getRealPath("templates/"));
 		resolver.setSuffix(".html");
 		resolver.setTemplateMode("HTML5");
 		resolver.setOrder(engine.getTemplateResolvers().size());
