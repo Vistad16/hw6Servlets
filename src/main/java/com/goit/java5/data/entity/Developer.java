@@ -21,7 +21,7 @@ public class Developer {
 		this.salary = salary;
 	}
 
-	enum Sex{
+	public enum Sex{
 		male,
 		female,
 		unknown

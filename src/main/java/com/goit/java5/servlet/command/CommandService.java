@@ -12,6 +12,10 @@ import com.goit.java5.servlet.command.companies.AddCommands;
 import com.goit.java5.servlet.command.companies.DeleteCommands;
 import com.goit.java5.servlet.command.companies.GetCommands;
 import com.goit.java5.servlet.command.companies.UpdateCommand;
+import com.goit.java5.servlet.command.developers.AddDevelopersCommand;
+import com.goit.java5.servlet.command.developers.DeleteDevelopersCommand;
+import com.goit.java5.servlet.command.developers.GetDevelopersCommand;
+import com.goit.java5.servlet.command.developers.UpdateDevelopersCommand;
 
 public class CommandService {
 	private final Map<String, Command> commands;
@@ -19,11 +23,16 @@ public class CommandService {
 	public CommandService() {
 		commands = new HashMap<>();
 		//todo add commands
+		//company
 		commands.put("GET /hw6Servlets/companies", new GetCommands());
 		commands.put("POST /hw6Servlets/companies/delete", new DeleteCommands());
 		commands.put("POST /hw6Servlets/companies", new AddCommands());
 		commands.put("POST /hw6Servlets/companies/update", new UpdateCommand());
-
+		//developers
+		commands.put("GET /hw6Servlets/developers", new GetDevelopersCommand());
+		commands.put("POST /hw6Servlets/developers/add", new AddDevelopersCommand());
+		commands.put("POST /hw6Servlets/developers/delete", new DeleteDevelopersCommand());
+		commands.put("POST /hw6Servlets/developers/update", new UpdateDevelopersCommand());
 	}
 
 	public void process(HttpServletRequest req, HttpServletResponse resp) throws IOException {
