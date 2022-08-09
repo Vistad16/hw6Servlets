@@ -11,16 +11,14 @@ public class Storage {
 
 	private Connection connection;
 
-	Prefs prefs = new Prefs();
+//	Prefs prefs = new Prefs();
 
 	private Storage() {
 		try {
-//			DriverManager.registerDriver(new com.mysql.jdbc.Driver()); //deprecated
 			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 
 			//don't know why not working this
 //			connection = DriverManager.getConnection(prefs.getDB_JDBC_CONNECTION_URL(), prefs.getDB_USER(), prefs.getDB_USER());
-
 			connection = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "pass");
 		} catch (Exception ex) {
 			ex.printStackTrace();

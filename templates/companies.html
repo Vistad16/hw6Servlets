@@ -30,46 +30,43 @@
     <div class="col">
       <form action="/hw6Servlets/companies" method="POST">
         <div class="form-group">
-          <label for="company_name">Add Companies</label>
-          <input type="text" name="company_name" class="form-control" id="company_name" placeholder="Enter Name">
+          <label for="company_name">Add Company</label>
+          <input type="text" name="company_name" class="form-control" id="company_name" placeholder="Enter name">
         </div>
         <div class="form-group">
           <label for="specialization">Company Specialization</label>
           <textarea class="form-control" name="specialization" id="specialization" placeholder="Enter specialization"
                     rows="3"></textarea>
         </div>
-
-        <button type="submit" class="btn btn-primary">Add Companies</button>
+        <button type="submit" class="btn btn-primary">Add Company</button>
       </form>
     </div>
     <div class="col">
       <form action="/hw6Servlets/companies/update" method="post">
         <div class="form-group">
-          <label for="update">Update Companies</label>
+          <label for="update">Update Company</label>
           <input type="text" class="form-control" name="id" id="update" placeholder="Enter ID">
         </div>
         <div class="form-group">
-          <label for="updateCompany_name">Name Companies</label>
-          <input type="text" name="updateCompany_name" class="form-control" id="updateCompany_name" placeholder="Enter Name">
+          <label for="updateCompany_name">Name Company</label>
+          <input type="text" name="updateCompany_name" class="form-control" id="updateCompany_name" placeholder="Enter name">
         </div>
         <div class="form-group">
           <label for="updateSpecialization">Company Specialization</label>
           <textarea class="form-control" name="updateSpecialization" id="updateSpecialization" placeholder="Enter specialization"
                     rows="3"></textarea>
         </div>
-
-        <button type="submit" class="btn btn-primary">Update</button>
+        <button type="submit" class="btn btn-primary">Update Company</button>
       </form>
     </div>
     <div class="col">
 
       <form action="/hw6Servlets/companies/delete" method="post">
         <div class="form-group">
-          <label for="delete">Delete Companies</label>
+          <label for="delete">Delete Company</label>
           <input type="text" class="form-control" name="id" id="delete" placeholder="Enter ID">
         </div>
-
-        <button type="submit" class="btn btn-primary">Delete</button>
+        <button type="submit" class="btn btn-primary">Delete Company</button>
       </form>
     </div>
   </div>
