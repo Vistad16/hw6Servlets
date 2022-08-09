@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="add customers part, done 5/5">
+    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/DatabaseInitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/DatabaseInitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/companies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/companies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Prefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Prefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +72,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Temp/hw6Servlets/templates",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Temp/hw6Servlets/templates&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.goit.java5.data.entity" />
@@ -235,8 +231,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.hw6Servlets [war]" />
-        <item itemvalue="Gradle.hw6Servlets [clean]" />
         <item itemvalue="Gradle.hw6Servlets [build]" />
+        <item itemvalue="Gradle.hw6Servlets [clean]" />
         <item itemvalue="Application.com.goit.java5.App" />
         <item itemvalue="Application.App" />
       </list>
@@ -419,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660054989009</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="format">
+      <created>1660055666299</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660055666299</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -456,10 +459,10 @@
     <MESSAGE value="add developer part 2/5 done" />
     <MESSAGE value="formatting" />
     <MESSAGE value="add projects part done 3/5" />
-    <MESSAGE value="format" />
     <MESSAGE value="add skills part, done 4/5" />
     <MESSAGE value="add customers part, done 5/5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add customers part, done 5/5" />
+    <MESSAGE value="format" />
+    <option name="LAST_COMMIT_MESSAGE" value="format" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
