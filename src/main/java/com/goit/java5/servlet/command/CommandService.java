@@ -16,6 +16,10 @@ import com.goit.java5.servlet.command.developers.AddDevelopersCommand;
 import com.goit.java5.servlet.command.developers.DeleteDevelopersCommand;
 import com.goit.java5.servlet.command.developers.GetDevelopersCommand;
 import com.goit.java5.servlet.command.developers.UpdateDevelopersCommand;
+import com.goit.java5.servlet.command.projects.AddProjectsCommand;
+import com.goit.java5.servlet.command.projects.DeleteProjectsCommand;
+import com.goit.java5.servlet.command.projects.GetProjectsCommand;
+import com.goit.java5.servlet.command.projects.UpdateProjectsCommand;
 
 public class CommandService {
 	private final Map<String, Command> commands;
@@ -33,6 +37,11 @@ public class CommandService {
 		commands.put("POST /hw6Servlets/developers/add", new AddDevelopersCommand());
 		commands.put("POST /hw6Servlets/developers/delete", new DeleteDevelopersCommand());
 		commands.put("POST /hw6Servlets/developers/update", new UpdateDevelopersCommand());
+		//projects
+		commands.put("GET /hw6Servlets/projects", new GetProjectsCommand());
+		commands.put("POST /hw6Servlets/projects/add", new AddProjectsCommand());
+		commands.put("POST /hw6Servlets/projects/update", new UpdateProjectsCommand());
+		commands.put("POST /hw6Servlets/projects/delete", new DeleteProjectsCommand());
 	}
 
 	public void process(HttpServletRequest req, HttpServletResponse resp) throws IOException {

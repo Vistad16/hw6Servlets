@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="add developer part 2/5 done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/queries/RequestsForDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/DeveloperServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/developers/AddDevelopersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/developers/DeleteDevelopersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/developers/GetDevelopersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/developers/UpdateDevelopersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/developers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/queries/RequestsForProjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/ProjectsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/AddProjectsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/DeleteProjectsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/GetProjectsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/UpdateProjectsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Projects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/DeveloperServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/DeveloperServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/companies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/companies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/developers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +117,7 @@
       <recent name="com.goit.java5.thymeleaf" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hw6Servlets [build]">
+  <component name="RunManager" selected="Gradle.hw6Servlets [war]">
     <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
       <option name="adminPort" value="8005" />
       <option name="contextPath" />
@@ -237,9 +240,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.hw6Servlets [war]" />
         <item itemvalue="Gradle.hw6Servlets [build]" />
         <item itemvalue="Gradle.hw6Servlets [clean]" />
-        <item itemvalue="Gradle.hw6Servlets [war]" />
         <item itemvalue="Application.com.goit.java5.App" />
         <item itemvalue="Application.App" />
       </list>
@@ -373,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659982817127</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add developer part 2/5 done">
+      <created>1660035405444</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660035405444</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">

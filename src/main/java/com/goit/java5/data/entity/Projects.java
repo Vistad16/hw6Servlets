@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class Projects {
 	private int id;
 	private String projects_name;
-	private int cost;
+	private long cost;
 	private LocalDate creation_Date;
 	private String description;
 
