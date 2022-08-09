@@ -10,7 +10,7 @@ import java.io.IOException;
 @WebServlet ("/developers/*")
 public class DeveloperServlet extends HttpServlet {
 	@Override
-	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		IndexPageServlet.getCommandService().process(req, resp);
 	}
 }

@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="add developer part 2/5 done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/queries/RequestsForProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/ProjectsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/AddProjectsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/DeleteProjectsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/GetProjectsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/projects/UpdateProjectsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Projects.java" afterDir="false" />
+    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="add projects part done 3/5">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/DeveloperServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/DeveloperServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/servlet/command/CommandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/companies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/companies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +370,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660035405444</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="formatting">
+      <created>1660049893124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660049893124</updated>
+    </task>
+    <task id="LOCAL-00020" summary="formatting">
+      <created>1660049906519</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660049906519</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add projects part done 3/5">
+      <created>1660050004444</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660050004444</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -418,7 +426,9 @@
     <MESSAGE value="Companies done 1/6" />
     <MESSAGE value="add entity" />
     <MESSAGE value="add developer part 2/5 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="add developer part 2/5 done" />
+    <MESSAGE value="formatting" />
+    <MESSAGE value="add projects part done 3/5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add projects part done 3/5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
