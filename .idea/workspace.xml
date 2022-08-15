@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="fix init DB">
+    <list default="true" id="d44709e6-1fe1-4744-9582-66ea874e4c56" name="Changes" comment="fix Storage class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/connection/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goit/java5/data/entity/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__home_work4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__home_work4.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Temp/hw6Servlets",
+    "last_opened_file_path": "C:/Users/bohda/OneDrive/JavaApp/java5Dev/hw5HTTP/http",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -436,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660071318130</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix Storage class">
+      <created>1660545718064</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1660545718064</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -478,7 +485,8 @@
     <MESSAGE value="format" />
     <MESSAGE value="fix pref" />
     <MESSAGE value="fix init DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix init DB" />
+    <MESSAGE value="fix Storage class" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Storage class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

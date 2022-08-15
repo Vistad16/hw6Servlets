@@ -23,7 +23,7 @@ FOREIGN KEY (skill_id) REFERENCES skills(id)
 
 ALTER TABLE developer
 ADD CONSTRAINT sex_enum_values
-CHECK (sex IN ('male', 'female', 'unknown'));
+CHECK (sex IN ('MALE', 'FEMALE', 'UNKNOWN'));
 
 CREATE TABLE projects (
   id BIGINT PRIMARY KEY AUTO_INCREMENT,
@@ -93,12 +93,12 @@ INSERT INTO skills (programming_language, skill_level) VALUES
 ('python',  'senior');
 
 INSERT INTO developer (company_id, name, age, sex, salary) VALUES
-(1, 'HK-47', 1, 'unknown', 10000),
-(1, 'C3PO', 20, 'unknown', 20),
-(2, 'Hurin Thalion', 143, 'male', 6700),
-(2, 'Morwen Eledhwen', 121, 'female', 5200),
-(3, 'Alia Atreides', 25, 'female', 7000),
-(3, 'Frank Herbert', 50, 'male', 12500);
+(1, 'HK-47', 1, 'UNKNOWN', 10000),
+(1, 'C3PO', 20, 'UNKNOWN', 20),
+(2, 'Hurin Thalion', 143, 'MALE', 6700),
+(2, 'Morwen Eledhwen', 121, 'FEMALE', 5200),
+(3, 'Alia Atreides', 25, 'FEMALE', 7000),
+(3, 'Frank Herbert', 50, 'MALE', 12500);
 
 INSERT INTO customers (name, Country) VALUES
 ('Qui-Gon Jinn', 'Tatooine'),
@@ -151,7 +151,7 @@ INSERT INTO company_customer (customer_id, company_id) VALUES
 (3, 3);
 
 INSERT INTO developer (company_id, name, age, sex, salary) VALUES
-(1, 'Chack Norris', 100, 'male', 7777777);
+(1, 'Chack Norris', 100, 'MALE', 7777777);
 
 INSERT INTO developers_skills (developers_id, skill_id) VALUES
 (7, 3),

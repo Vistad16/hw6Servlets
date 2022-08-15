@@ -13,7 +13,7 @@ public class Developer {
 	private Sex sex;
 	private int salary;
 
-	public Developer(int company_id, String name, int age, Sex sex, int salary){
+	public Developer(int company_id, String name, int age, Sex sex, int salary) {
 		this.company_id = company_id;
 		this.name = name;
 		this.age = age;
@@ -21,9 +21,9 @@ public class Developer {
 		this.salary = salary;
 	}
 
-	public enum Sex{
-		male,
-		female,
-		unknown
+	public enum Sex {
+		MALE,
+		FEMALE,
+		UNKNOWN
 	}
 }
